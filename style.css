@@ -1,0 +1,130 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(114, 189, 219);
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    font-family:arial;
+    background-color: #fff;
+    height:95vh;
+    width:40%;
+    margin:1rem 30% ;
+    border-radius:20px;
+}
+label{
+    font-size:1.2rem;
+    font-weight:700;
+    padding:0.5rem;
+}
+input{
+    border:none;
+    outline:none;
+    font-size:0.9rem;
+}
+.box{
+    width:100%;
+    margin:0 3rem 0 3rem;
+    padding:0 3rem 0 3rem;
+}
+form{
+    display:flex;
+    flex-direction:column;
+}
+.btn{
+    padding:1rem 2rem;
+    width:80%;
+    text-align:center;
+    margin:0 auto ;
+    display:block;
+    border-radius:10px;
+    border:none;
+    background:linear-gradient(to right,rgba(83, 227, 213, 0.7),rgb(170, 64, 236),rgb(225, 43, 98),rgb(190, 30, 57));
+}
+.btn:hover{
+    border:1px solid black;
+    cursor: pointer;
+}
+p{
+    margin-top:3rem;
+    display:block;
+    text-align:center;
+    font-weight:600;
+}
+.info{
+    display:flex;
+    gap:1rem;
+    padding-left:1rem;
+    border-bottom:1px solid #999;
+    padding:1rem 0;
+}
+.forget{
+    display:flex;
+    justify-content: flex-end;
+    color:rgb(79, 79, 80);
+    font-size:0.8rem;
+    padding:1rem;
+}
+.forget:hover{
+    cursor:pointer;
+    color:blue;
+}
+input[type=password]:after{
+    display:block;
+    height:1px;
+    background-color:#999;
+    content:" ";
+    width:100px;
+    margin-top: 30px;
+}
+h2{
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+.small{
+    font-size:25px;
+    display:inline-block;
+}
+.link{
+    font-size:32px;
+    display: flex;
+    gap:10px;
+    padding:20px;
+    justify-content:center;
+    cursor:pointer;
+}
+.fac{
+    color:rgb(25, 25, 173);
+    font-size:42px;
+}
+.tw{
+    font-size:22px;
+    padding:10px;
+    color:white;
+    border:1px solid transparent;
+    border-radius:50%;
+    background-color: rgb(34, 112, 161);
+}
+.go{
+    padding:10px;
+    color:white;
+    font-size:24px;
+    border:1px solid transparent;
+    border-radius:50%;
+    background-color: rgb(236, 111, 9);
+}
+.sign-up{
+    text-decoration:none;
+    color:black;
+    text-transform: uppercase;
+    margin-top:1rem;
+}
+.sign-up:hover{
+    color:rgb(163, 163, 168);
+}
